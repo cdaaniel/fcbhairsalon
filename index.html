@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Fashion Cut & Beauty</title>
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CDN -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Local JS and CSS-->
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/gallery.css">
+    <script src="./scripts/main.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+    <main>
+        <div id="menu">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <!-- Landing Section -->
+        <section class="large first">
+            <div class="content banner">
+                <div class="header-placeholder"></div>
+                <header>
+                    <nav>
+                        <ul>
+                            <li class="show"><a href="index.html"><img src="images/banner/fcb-logo.png"
+                                        alt="fashion cut & beauty logo"></a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#gallery">Gallery</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <a href="#book" role="button" id="bookBtn">BOOK</a>
+                        </ul>
+                    </nav>
+                </header>
+                <!--Hero container-->
+                <div class="content-hero">
+                    <div class="main-hero">
+                        <h1 class="font-weight-bold mb-lg-5">Highlight your natural beauty.</h1>
+                        <h2 class="default-text">Fashion Cut & Beauty, previously known as Kula Salon, is a
+                            hairsalon
+                            located in Bedford,
+                            established in 2010 and known for high-quality beauty, hair, and spa services.</h2>
+                        <a href="#services" role="button" class="call-to-action">SERVICES</a>
+                    </div>
+
+                    <div class="small">
+                        <a href="https://www.facebook.com/fashioncutandbeauty"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="42" height="42" fill="black" class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                            </svg></a>
+                        <a href="https://www.instagram.com/fcbhairsalon/"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="40" height="40" fill="black" class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                            </svg></a>
+                        <a href="https://wa.me/+4407599700329"><svg xmlns="http://www.w3.org/2000/svg" width="42"
+                                height="42" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                <path
+                                    d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                            </svg></a>
+                    </div>
+                </div>
+                <!--Landing page social proof-->
+            </div>
+        </section>
+        <!-- Social Proof Section -->
+        <section>
+            <div class="social-proof">
+                <div class="content split">
+                    <div>
+                        <img src="images/banner/google-logo.png" alt="google logo with five stars review">
+                    </div>
+                    <div>
+                        <h3> +20 years of <br><span style="font-weight: 600;">EXPERIENCE</span></h3>
+                    </div>
+                    <div>
+                        <h3 style="text-align: center;">Professional <br> Services</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonials Section -->
+        <section class="py-5 text-white change-bg">
+            <div class="container">
+                <section>
+                    <div class="row text-center">
+                        <!-- Review 1 -->
+                        <div class="col-md-4 mb-0">
+                            <div class="d-flex justify-content-center mb-4">
+                                <img src="./images/banner/rasa.jpg" class="rounded-circle shadow-1-strong" width="80"
+                                    height="80" />
+                            </div>
+                            <h5 class="mb-3">Rasa Einigytė</h5>
+                            <p class="px-xl-3">
+                                <i class="fas fa-quote-left pe-2"></i>I am using the salon for more than 10 years now.
+                                Always friendly and welcoming atmosphere. Leaving the salon satisfied. Would definitely
+                                recommend.
+                            </p>
+                            <ul class="list-unstyled d-flex justify-content-center mb-5">
+                                <li>
+                                    <i class="fas fa-star fa-sm text-warning"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star fa-sm text-warning"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star fa-sm text-warning"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star fa-sm text-warning"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star fa-sm text-warning"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Review 2 -->
+                        <div class="col-md-4 mb-5 mb-md-0">
+                            <div class="d-flex justify-content-center mb-4">
+                                <img src="./images/banner/anita.jpg" class="rounded-circle shadow-1-strong" width="80"
+                                    height="80" />
+                            </div>
+                            <h5 class="mb-3">Anita Swan</h5>
+                            <p class="px-xl-3">
+                                <i class="fas fa-quote-left pe-2"></i>Very professional and friendly place.I'm glad it's
+                                back open again! I'm never disappointed with the end result. Couldn't recommend Kasia
+                                enough!
+                            </p>
+                            <ul class="list-unstyled d-flex justify-content-center mb-0">
+                                <li>
+                                    <i class="fas fa-star fa-sm text-warning"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star fa-sm text-warning"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star fa-sm text-warning"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star fa-sm text-warning"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star fa-sm text-warning"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Review 3 -->
+                        <div class="col-md-4 mb-5 mb-md-0">
+                            <div class="d-flex justify-content-center mb-4">
+                                <img src="./images/banner/angela.jpg" class="rounded-circle shadow-1-strong" width="80"
+                                    height="80" />
+                            </div>
+                            <h5 class="mb-3">Angela Smith</h5>
+                            <p class="px-xl-3">
+                                <i class="fas fa-quote-left pe-2"></i>I love this place. I am very picky with my hair
+                                and since I found FC&BB I won't go anywhere else. I definitely recommend.
+                            </p>
+                            <ul class="list-unstyled d-flex justify-content-center mb-0">
+                                <li>
+                                    <i class="fas fa-star fa-sm text-warning"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star fa-sm text-warning"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star fa-sm text-warning"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star fa-sm text-warning"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star fa-sm text-warning"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <!-- Services Section -->
+        <section class="large large2" id="services">
+            <div class="content">
+                <h1>Services</h1>
+                <div class="content services">
+                    <div class="services-card">
+                        <div class="main-service-title" style="padding-bottom: 12px;">
+                            <img src="images/services/hair-dye.png" alt="">
+                            <h4 class="pt-2">Styling</h4>
+                        </div>
+                        <div class="serivce">
+                            <h5>Wash, Cut and Blow Dry (Short) <span style="padding-left: 10px;">£25</span></h5>
+                        </div>
+                        <div class="serivce">
+                            <h5>Wash, cut and blow dry (LONG)<span>£30</span></h5>
+                        </div>
+                        <div class="serivce">
+                            <h5>WASH AND BLOW DRY (SHORT) <span>£18</span></h5>
+                        </div>
+                        <div class="serivce">
+                            <h5>WASH AND BLOW DRY (LONG) <span>£23</span></h5>
+                        </div>
+                        <div class="serivce title">
+                            <h5>Men's</h5>
+                        </div>
+                        <div class="serivce">
+                            <h5>Hair cut <span>£16</span></h5>
+                        </div>
+                        <div class="serivce">
+                            <h5>Platters<span>£10</span></h5>
+                        </div>
+                        <div class="serivce">
+                            <h5>Clipper beard trim<span>£5</span></h5>
+                        </div>
+                        <div class="serivce title">
+                            <h5>Children</h5>
+                        </div>
+                        <div class="serivce">
+                            <h5>Boys <span>£14</span></h5>
+                        </div>
+                        <div class="serivce">
+                            <h5>Girls <span>£20</span></h5>
+                        </div>
+                        <div class="serivce title">
+                            <h5>Hair treatments</h5>
+                        </div>
+                        <p style="margin-top: 1rem">Please ask for hair treatments including
+                            <br> Botox,
+                            Olalpex, Amoules, Keratin and
+                            Sauna.
+                        </p>
+                    </div>
+
+                    <div class="services-card">
+                        <div class="main-service-title">
+                            <img src="images/services/hair-dye.png" alt="">
+                            <h4 class="pt-2">Colouring</h4>
+                        </div>
+                        <div class="serivce title">
+                            <h5>Full Head Tint</h5>
+                        </div>
+                        <div class="serivce">
+                            <h5>Short hair - from <span>£60</span></h5>
+                        </div>
+                        <div class="serivce">
+                            <h5>Long hair - from <span>£70</span></h5>
+                        </div>
+                        <div class="serivce">
+                            <h5>Roots and refresh - form <span>£50</span></h5>
+                        </div>
+                        <div class="serivce title">
+                            <h5>Highlights + Toner</h5>
+                        </div>
+                        <div class="serivce">
+                            <h5>Short hair - from <span>£70</span></h5>
+                        </div>
+                        <div class="serivce">
+                            <h5>Long hair - from <span>£90</span></h5>
+                        </div>
+                        <div class="serivce title">
+                            <h5>Balayage or Sombre (2+ colours)</h5>
+                        </div>
+                        <div class="serivce">
+                            <h5>Short hair - from <span>£80</span></h5>
+                        </div>
+                        <div class="serivce">
+                            <h5>Long hair - from <span>£100</span></h5>
+                        </div>
+                        <div class="serivce title">
+                            <h5>Special occasions</h5>
+                        </div>
+                        <div class="serivce">
+                            <h5>Curling<span>£30</span></h5>
+                        </div>
+                        <div class="serivce">
+                            <h5>Hair up <span>£40</span></h5>
+                        </div>
+                        <p style="padding-top: 0.8rem;">All our colour prices include cut and blow dry.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Gallery Section-->
+        <section class="change-bg pb-5" style="margin-bottom: -2rem;" id="gallery">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 my-2">
+                        <h1 style="color: white;">Image Gallery</h1>
+                    </div>
+                </div>
+                <div class="portfolio-item row px-lg-5 ">
+                    <div class="item col-xs-12 col-sm-4 col-lg-3">
+                        <a href="./images/gallery/after-1.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                            <img class="img-fluid" src="./images/gallery/after-1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="item col-xs-12 col-sm-4 col-lg-3">
+                        <a href="./images/gallery/after-2.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                            <img class="img-fluid" src="./images/gallery/after-2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="item col-xs-12 col-sm-4 col-lg-3">
+                        <a href="./images/gallery/hair1.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                            <img class="img-fluid" src="./images/gallery/hair1.jpg" alt="">
+                        </a>
+                    </div>
+
+                    <div class="item col-xs-12 col-sm-4 col-lg-3 ">
+                        <a href="./images/gallery/hair3.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                            <img class="img-fluid" src="./images/gallery/hair3.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="item col-xs-12 col-sm-4 col-lg-3 ">
+                        <a href="./images/gallery/hair4.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                            <img class="img-fluid" src="./images/gallery/hair4.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="item col-xs-12 col-sm-4 col-lg-3 ">
+                        <a href="./images/gallery/hair5.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                            <img class="img-fluid" src="./images/gallery/hair5.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="item col-xs-12 col-sm-4 col-lg-3 ">
+                        <a href="./images/gallery/hair6.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                            <img class="img-fluid" src="./images/gallery/hair6.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="item col-xs-12 col-sm-4 col-lg-3 ">
+                        <a href="./images/gallery/hair7.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                            <img class="img-fluid" src="./images/gallery/hair7.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="item col-xs-12 col-sm-4 col-lg-3 ">
+                        <a href="./images/gallery/hair8.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                            <img class="img-fluid" src="./images/gallery/hair8.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="item col-xs-12 col-sm-4 col-lg-3 ">
+                        <a href="./images/gallery/hair9.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                            <img class="img-fluid" src="./images/gallery/hair9.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="item col-xs-12 col-sm-4 col-lg-3 ">
+                        <a href="./images/gallery/hair10.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                            <img class="img-fluid" src="./images/gallery/hair10.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="item col-xs-12 col-sm-4 col-lg-3 ">
+                        <a href="./images/gallery/hair11.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                            <img class="img-fluid" src="./images/gallery/hair11.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="item col-xs-12 col-sm-4 col-lg-3 ">
+                        <a href="./images/gallery/hair12.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                            <img class="img-fluid" src="./images/gallery/hair12.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="item col-xs-12 col-sm-4 col-lg-3 ">
+                        <a href="./images/gallery/hair13.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                            <img class="img-fluid" src="./images/gallery/hair13.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="item col-xs-12 col-sm-4 col-lg-3 ">
+                        <a href="./images/gallery/hair14.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                            <img class="img-fluid" src="./images/gallery/hair14.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="item col-xs-12 col-sm-4 col-lg-3">
+                        <a href="./images/gallery/hair16.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+                            <img class="img-fluid" src="./images/gallery/hair17.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact -->
+        <section class="contact pb-sm-5 pb-lg-0 large large2" id="contact">
+            <div class="container mb-sm-5 mb-md-0 container-contact">
+                <h1 class="text-white pt-5">Contact Details</h1>
+                <div class="row px-5 pt-lg-5 mb-2 mb-md-1">
+                    <div class="secondary" id="book" style="border-left: 2rem solid #bf296f">
+                        <h5 class="pt-2" style="line-height: 2rem; font-weight: 400;">We are currently only taking
+                            appointments by
+                            phone!
+                            Please call <a href="tel:07599 700329" style="color: white;">07599700329</a>!
+                        </h5>
+                        <h6 class="pt-3" style="line-height: 2rem; font-weight: 400;">OPEN ON REQUEST on Saturday. We
+                            open on request, make sure you book in advance!
+                        </h6>
+                    </div>
+                </div>
+                <div class="row px-5 pt-lg-5 d-flex justify-content-between">
+                    <div class="col-sm-12 col-lg-6 text-white my-sm-2 py-4 pl-4 pl-lg-5 transparent mb-2">
+                        <div class="row my-2">
+                            <div class="col">MONDAY</div>
+                            <div class="col flexible">CLOSED</div>
+                        </div>
+                        <div class="row my-2">
+                            <div class="col">TUESDAY</div>
+                            <div class="col ">10AM - 8PM</div>
+                        </div>
+                        <div class="row my-2">
+                            <div class="col">WEDNESDAY</div>
+                            <div class="col ">10AM - 8PM</div>
+                        </div>
+                        <div class="row my-2">
+                            <div class="col">THURSDAY</div>
+                            <div class="col ">10AM - 8PM</div>
+                        </div>
+                        <div class="row my-2">
+                            <div class="col">FRIDAY</div>
+                            <div class="col">10AM - 3PM</div>
+                        </div>
+                        <div class="row my-2">
+                            <div class="col">SATURDAY</div>
+                            <div class="col flexible">ON REQUEST</div>
+                        </div>
+                        <div class="row my-2">
+                            <div class="col">SUNDAY</div>
+                            <div class="col flexible">CLOSED</div>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-12 col-lg-5 ml-lg-5 my-md-2 pl-4 pt-4 mb-5 transparent pl-lg-5">
+                        <div class="row my-2">
+                            <a href="https://www.google.com/maps/dir/52.1362602,-0.4794409/googlemaps+fashion+cut+and+beauty/@52.1400903,-0.4826981,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x4877b77e97e5dde3:0x5a6b989a17c0b2a4!2m2!1d-0.4679393!2d52.140971"
+                                class="default">
+                                <i class="location-icon"></i>
+                                <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                                    </svg></i>22A Foster Hill Rd, <br> <span style="margin-left: 2.2rem;">Bedford
+                                        MK40
+                                        2EN</span> </p>
+                            </a>
+                        </div>
+                        <div class="row my-2">
+                            <a href="tel:07599 700329" class="default">
+                                <p><i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                            class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                                        </svg></i>07599 700329</p>
+                            </a>
+                        </div>
+                        <div class="row my-2">
+                            <a href="mailto:fcbhairsalon@gmail.com" class="default">
+                                <p><i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                            class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+                                        </svg></i>fcbhairsalon@gmail.com</p>
+                            </a>
+
+                        </div>
+                        <div class="row my-2">
+                            <a href="https://www.instagram.com/fcbhairsalon/" class="default">
+                                <p><i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                            class="bi bi-instagram" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                                        </svg></i>fcbhairsalon</p>
+                            </a>
+
+
+                        </div>
+                        <div class="row my-2">
+                            <a href="https://www.facebook.com/fashioncutandbeauty" class="default">
+                                <p><i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                            class="bi bi-facebook" viewBox="0 0 16 16">
+                                            <path
+                                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                                        </svg></i>Fashion Cut & Beauty</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="change-bg">
+        <div class="container py-5 ">
+            <div class="row">
+                <div class="col">
+                    <div class="row text-center">
+                        <h4>Social Media</h4>
+                        <a href="https://www.instagram.com/fcbhairsalon/">Instagram</a>
+                        <a href="https://www.facebook.com/fashioncutandbeauty">FaceBook</a>
+                        <a href="https://wa.me/+4407599700329">WhatsApp</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row text-center">
+                        <h4>Navigation</h4>
+                        <a href="index.html">Home</a>
+                        <a href="#services">Services</a>
+                        <a href="#gallery">Gallery</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+                <div class="col opacity-50 pl-5" style="display: flex; justify-content: center;">
+                    <a href="index.html"> <img src="./images/banner/fcb-logo.png" width="110px"></a>
+
+                </div>
+            </div>
+        </div>
+        <div class="row text-white opacity-50 copy mx-auto">
+            <p class="px-2" style="text-align: center;">&copy;Fashion Cut & Beauty 2022. All rights reserved unless
+                attributed.
+                Developed by
+                @cdaaniel.</i></p>
+        </div>
+    </footer>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            var popup_btn = $('.popup-btn');
+            popup_btn.magnificPopup({
+                type: 'image',
+                gallery: {
+                    enabled: true
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
