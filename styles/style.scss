@@ -91,6 +91,7 @@ img {
   font-size: 1.3rem;
   font-family: var(--ff-secondary);
   line-height: 1.6rem;
+  padding-top: 2rem !important;
 }
 
 .call-to-action {
@@ -438,6 +439,10 @@ footer {
       transition: all 0.3s ease-in-out;
       border-radius: 5px;
     }
+  }
+
+  .default-text {
+    padding-top: 0 !important;
   }
 
   svg {

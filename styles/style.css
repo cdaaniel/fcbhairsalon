@@ -68,7 +68,7 @@ img {
 .default {
   text-decoration: none;
   -webkit-text-decoration-color: var(--clr-secondary) !important;
-          text-decoration-color: var(--clr-secondary) !important;
+  text-decoration-color: var(--clr-secondary) !important;
 }
 
 .header-placeholder {
@@ -423,9 +423,7 @@ footer .container a {
     align-items: center;
     font-size: 1.1rem;
   }
-  header ul {
-    /*book button*/
-  }
+
   header ul :hover {
     opacity: 0.9;
     color: white;
@@ -457,6 +455,7 @@ footer .container a {
     transition: all 0.3s ease-in-out;
     border-radius: 5px;
   }
+
   svg {
     fill: white;
   }
@@ -573,7 +572,7 @@ footer .container a {
     opacity: 1;
   }
   header ol,
-header ul {
+  header ul {
     padding-left: 0 !important;
   }
   .first {
@@ -670,4 +669,4 @@ header ul {
   .container-contact .row p {
     font-size: 0.9rem;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
