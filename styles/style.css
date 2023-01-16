@@ -370,7 +370,7 @@ section .split div img {
 }
 
 .contact {
-  background-image: url(../images/banner/cover.jpg);
+  background-image: url(./images/banner/cover.jpg);
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
